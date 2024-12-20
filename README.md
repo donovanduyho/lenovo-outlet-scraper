@@ -8,7 +8,7 @@
 ## Installation
 Step 1: Clone Repo
 ```
-$ git clone [url]
+$ git clone git@github.com:donovanduyho/lenovo-outlet-scraper.git
 $ cd lenovo-outlet-scraper
 ```
 
