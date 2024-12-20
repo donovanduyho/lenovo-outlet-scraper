@@ -5,8 +5,27 @@
     * LEN101T00XX
     * Example: LEN101T0080 = Thinkpad T14s Gen 4 AMD
 
+## Installation
+Step 1: Clone Repo
+```
+$ git clone [url]
+$ cd lenovo-outlet-scraper
+```
+
+Step 2: Create Python Virtual Environment
+```
+$ python -m venv env
+$ source /env/bin/activate
+```
+
+Step 3: Install [Dependencies](#dependencies)
+
+Step 3: Run
+```
+$ python main.py
+```
+
 ## Dependencies
-*Read [Installation] before installing*
 ### Pip
 ```
 $ sudo apt install python3-pip 
@@ -22,25 +41,4 @@ $ pip install pydantic
 ### Rich
 ```
 $ pip install rich
-```
-
-## Installation
-Step 1: Clone Repo
-```
-$ git clone [url]
-$ cd lenovo-outlet-scraper
-```
-
-Step 2: Create Python Virtual Environment
-```
-$ python -m venv env
-$ source /env/bin/activate
-```
-
-Step 3: Install Dependencies
-*See [Dependencies]*
-
-Step 3: Run
-```
-$ python main.py
 ```
