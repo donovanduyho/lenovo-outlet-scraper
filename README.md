@@ -20,7 +20,7 @@ $ source /env/bin/activate
 
 Step 3: Install [Dependencies](#dependencies)
 
-Step 3: Run
+Step 4: Run
 ```
 $ python main.py
 ```
